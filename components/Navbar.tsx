@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Dumbbell, ClipboardList } from "lucide-react";
 import { usePathname } from "next/navigation";
-import { usePlan } from "@/context/PlanContext";
+
 
 export default function Navbar() {
   const pathname = usePathname();
