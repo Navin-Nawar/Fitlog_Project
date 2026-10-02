@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Check, Clock3, Flame, Heart, Plus, Star } from "lucide-react";
 import { Workout } from "@/lib/types";
 import { usePlan } from "@/context/PlanContext";
-import { Toast } from "./Toast";
+
 
 export default function WorkoutDetails({ workout }: { workout: Workout }) {
   const { plan, saved, addToPlan, saveForLater } = usePlan();
